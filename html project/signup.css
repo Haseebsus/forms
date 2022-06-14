@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    animation: bgcolor infinite 20s;
+   
+    
+}
+@keyframes bgcolor{
+    0%{
+        background:#636e72 ;
+    }
+    20%{
+        background:#6c5ce7 ;
+    }
+    40%{
+        background:#d63031 ;
+    }
+    60%{
+        background: #2980b9;
+    }
+    80%{
+        background:#8e44ad ;
+    }
+    100%{
+        background: #2ecc71;
+    }
+}
+svg{
+    width: 400px;
+    height: 500px;
+    margin-left: 700px;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    right: 60%;
+    transform: translate(-50%, -50%);
+    
+}
+ 
+
+.signup-box{
+    width: 400px;
+    height: 620px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.761);
+    border-radius: 12px;
+    margin-top: 70px;
+}
+h1{
+    text-align: center;
+    padding: top 15px; 
+    font-weight: lighter;
+
+
+}
+form{
+    width: 360px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+form input{
+    width: 90%;
+    padding: 5px;
+    border-radius: 10px;
+    border-color:rgba(255, 255, 255, 0.48);
+}
+input[type="button"]
+{
+    width: 350px;
+    height: 35px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    background-color: #297fb9c9 ;
+
+
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    text-transform: capitalize;
+    
+   
+}
+h2{
+    float: right;
+    margin-right: 80px;
+    margin-top: -20px;
+    width: 70px;
+    padding: 13px;
+    color: white;
+    font-family: Arial;
+    font-weight: 300;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.795);
+    border-radius: 8px;
+    text-align: center;
+    
+}
